@@ -182,6 +182,13 @@ section{
         flex-direction: column;
         justify-content: center;
         padding-right: 18rem;
+        h4{
+            font-size: 1rem;
+            color: var(--color-accent);
+            &:hover{
+                color: var(--color-secondary);
+            }
+        }
         .name{
             font-size: 3rem;
             span{

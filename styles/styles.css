@@ -190,6 +190,13 @@ section {
   justify-content: center;
   padding-right: 18rem;
 }
+.header-content .right-header h4 {
+  font-size: 1rem;
+  color: var(--color-accent);
+}
+.header-content .right-header h4:hover {
+  color: var(--color-secondary);
+}
 .header-content .right-header .name {
   font-size: 3rem;
 }
