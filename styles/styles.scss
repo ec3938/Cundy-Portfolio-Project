@@ -469,8 +469,16 @@ section{
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                p{
+                    transition: all .4s ease-in-out;
+                    &:hover{
+                        color: var(--color-white);
+                    }
+                    padding-left: 1rem;
+                }
+                /**
                 .icon{
-                    background-color: var(--color-accent);
+                    //background-color: var(--color-accent);
                     border-radius: 50%;
                     width: 50px;
                     height: 50px;
@@ -480,18 +488,25 @@ section{
                     margin: 0 1rem;
                     cursor: pointer;
                     transition: all .4s ease-in-out;
+                    /**
                     i{
                         font-size: 1.5rem;
                         color: var(--color-white);
                         margin: 0 1rem;
                     }
+                    
                     &:hover{
                         background-color: var(--color-white);
+                        /**
                         i{
                             color: var(--color-secondary);
                         }
+                        
                     }
+                    
+                    
                 }
+                */
             }
         }
     }
