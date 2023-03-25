@@ -85,16 +85,7 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
-}
-@-webkit-keyframes scaleAnim {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
+  animation: scaleAnim 1s ease-in-out;
 }
 @keyframes scaleAnim {
   0% {
@@ -117,7 +108,6 @@ section {
 }
 .controls .active-btn {
   background-color: var(--color-secondary) !important;
-  transition: all 0.4s ease-in-out;
 }
 .controls .active-btn i {
   color: var(--color-beige) !important;
@@ -469,6 +459,7 @@ section {
   transition: all 0.4s ease-in-out;
 }
 .portfolios .portfolio-item .hover-items h3 {
+  padding: 2rem;
   align-self: center;
   font-size: 1.5rem;
   color: var(--color-white);
@@ -512,7 +503,8 @@ section {
 }
 .portfolios .portfolio-item .hover-items .icons p {
   transition: all 0.4s ease-in-out;
-  padding-left: 1rem;
+  /**padding-left: 1rem;**/
+  padding: 2rem;
 }
 .portfolios .portfolio-item .hover-items .icons p:hover {
   color: var(--color-white);

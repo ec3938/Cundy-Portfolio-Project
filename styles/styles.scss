@@ -112,7 +112,7 @@ section{
     transform: translateY(-50%); 
     .active-btn{
         background-color: var(--color-secondary) !important; //make this font based buttons
-        transition: all .4s ease-in-out;
+        //transition: all .4s ease-in-out;
         i{
             color: var(--color-beige) !important;
         }
@@ -469,6 +469,7 @@ section{
             transform: scale(0);
             transition: all .4s ease-in-out;
             h3{
+                padding: 2rem;
                 align-self: center;
                 font-size: 1.5rem;
                 color: var(--color-white);
@@ -483,7 +484,8 @@ section{
                     &:hover{
                         color: var(--color-white);
                     }
-                    padding-left: 1rem;
+                    /**padding-left: 1rem;**/
+                    padding:2rem;
                 }
                 /**
                 .icon{
